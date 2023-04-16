@@ -1,0 +1,54 @@
+@import './var'
+
+@mixin bg_main
+    background-color: $main_background_color
+
+@mixin bg_second
+    background-color: $second_background_color
+
+@mixin display_flex_column_center
+    display: flex
+    flex-direction: column
+    align-items: center
+
+@mixin gap_10
+    gap: 10px
+
+@mixin padding_5
+    padding: 5px
+
+@mixin padding_10
+    padding: 10px
+
+@mixin border_0_radius_5
+    border: 0px
+    border-radius: 5px
+
+@mixin font_size_20_white
+    font-size: $font_size
+    font-family: $font-family
+    color: $color_white
+
+@mixin font_size_20_black
+    font-size: $font_size
+    font-family: $font-family
+    color: $color_black
+
+@mixin font_size_20_red
+    font-size: $font_size
+    font-family: $font-family
+    color: $color_red
+
+@mixin input
+    width: 90%
+    height: 30px
+    outline: none
+    @include border_0_radius_5
+    @include font_size_20_black
+
+@mixin btn
+    @include border_0_radius_5
+    @include bg_main
+    @include font_size_20_white
+    @include padding_10
+    cursor: pointer
