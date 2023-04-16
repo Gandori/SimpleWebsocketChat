@@ -3,9 +3,9 @@ requires = ["setuptools", "setuptools-scm"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = 'WebsocketTesting'
+name = 'SimpleWebsocketChat'
 version = '0.1.0'
-description = 'Testen mit React und Websocket'
+description = 'Ein simpler chat mit fastapi und react'
 requires-python = '>=3.8'
 authors = [
     {name = 'Marcel Stiebing'}
@@ -28,7 +28,7 @@ dev = [
 ]
 
 [project.urls]
-'repository' = 'https://github.com/Gandori/WebsocketTesting'
+'repository' = 'https://github.com/Gandori/SimpleWebsocketChat'
 
 [tool.black]
 line-length = 88

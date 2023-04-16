@@ -1,1 +1,1 @@
-# FastapiTemplate
+# SimpleWebsocketChat
